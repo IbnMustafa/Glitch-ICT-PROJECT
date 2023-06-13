@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Coffee House Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=IBM+Plex+Sans:wght@100&family=Pacifico&family=Pangolin&family=Playfair:wght@300&family=Rubik+Puddles&display=swap"
+        rel="stylesheet" />
+    <style>
+        .img img {
+            width: 96px;
+            height: 96px;
+        }
+
+        .img {
+            display: inline;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #6f4e376d;
+            height: 100px;
+            position: sticky;
+            top: 0px;
+        }
+
+        .button1 {
+            background-color: white;
+            border-radius: 50px;
+            float: right;
+            cursor: pointer;
+            width: 100px;
+            height: 40px;
+            margin-top: 40px;
+            margin-right: 20px;
+        }
+
+        button:hover {
+            background-color: peachpuff;
+            color: #333;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        body {
+            margin: 0px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            font-family: Pangolin;
+            margin-bottom: 10px;
+            background-color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: antiquewhite;
+            border: 2px dotted whitesmoke;
+            background-color: #4a2c2a;
+            font-family: "Pacifico", cursive;
+            letter-spacing: 23px;
+            line-height: 65px;
+            border-radius: 80px;
+            cursor: pointer;
+        }
+
+        .menucard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 40px;
+            border-radius: 90px;
+            margin-top: 80px;
+        }
+
+        .menuitem {
+            padding: 5px;
+            box-shadow: 4px 4px 4px 4px #4a2c2a;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .menuitem:hover {
+            transform: scale(1.05);
+            transition: transform ease 0.7s;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            margin-top: 18px;
+            text-align: right;
+        }
+
+        p {
+            text-align: right;
+            font-style: italic;
+            font-variant: small-caps;
+            font-size: large;
+        }
+
+        button {
+            margin-top: 5px;
+            padding: 5px 10px 5px 10px;
+            background-color: black;
+            color: aliceblue;
+            cursor: pointer;
+            display: block;
+            width: 160px;
+            border-radius: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="img"><img src="logo cofee.jpg" alt="" /></div>
+
+        <!-- <button><a href="./order.html" target="_blank">YOUR CART</a></button> -->
+        <button class="button1" ><a href="./ContactUs.html" target="_blank">CONTACT</a></button>
+        <button class="button1" ><a href="./Menu.html" target="_blank">MENU</a></button>
+        <button class="button1" ><a href="./Homepage.html">HOME</a></button>
+    </div>
+
+    <h1>Premium Coffee House Menu</h1>
+    <div class="menucard">
+        <!-- 1 -->
+        <div class="menuitem">
+            <img src="Black Coffee 1.jpg" alt="Black Coffee" />
+            <h2>Black Coffee</h2>
+            <p>Black COFFEE for a bitter REALITY.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 2 -->
+        <div class="menuitem">
+            <img src="Cappuccino 2.jpg" alt="Cappuccino" />
+            <h2>Cappuccino</h2>
+            <p>
+                WAKE UP to this creamy CAPPUCCINO made with the perfect amount of
+                FROTHED MILK.
+            </p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 3 -->
+        <div class="menuitem">
+            <img src="Mocha 3.jpg" alt="Mocha" />
+            <h2>Mocha</h2>
+            <p>COFFEE and chocolate-the inventor of MOCHA should be sainted.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 4 -->
+        <div class="menuitem">
+            <img src="Latte 4.jpg" alt="Latte" />
+            <h2>Latte</h2>
+            <p>I'm a cup of tea in a world of LATTES.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 5 -->
+        <div class="menuitem">
+            <img src="Americano 5.jpg" alt="Americano" />
+            <h2>Americano</h2>
+            <p>BLACK as the devil PURE as an angel SWEET as love.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 6 -->
+        <div class="menuitem">
+            <img src="Espresso 6.jpg" alt="Espresso" />
+            <h2>Espresso</h2>
+            <p>a MERICLE of a chemistry in a cup.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 7 -->
+        <div class="menuitem">
+            <img src="cold brew 7.jpg" alt="Espresso" />
+            <h2>Cold Brew</h2>
+            <p>May your coffee be STRONG and your Monday be SHORT.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 8 -->
+        <div class="menuitem">
+            <img src="iced coffee 8.jpg" alt="Espresso" />
+            <h2>Iced Coffee</h2>
+            <p>Caffeine- It maintains my SUNNY personality.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 9 -->
+        <div class="menuitem">
+            <img src="Red Eye 9.png" alt="Espresso" />
+            <h2>Premium Coffee House Special</h2>
+            <p>Stressed, blessed, AND coffee obsessed.</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 10 -->
+        <div class="menuitem">
+            <img src="Molten Lava Cake10.jpg" alt="Espresso" />
+            <h2>Molten Lava</h2>
+            <p>Chocolate! ...</p>
+            <button>Add to cart</button>
+        </div>
+        <!-- 11 -->
+        <div class="menuitem">
+            <img src="pudding 11.jpg" alt="Espresso" />
+            <h2>Pudding</h2>
+            <p>"Life's a PUDDING full of plums.</p>
+            <button>Add to cart</button>
+        </div>
+    </div>
+</body>
+
+</html>

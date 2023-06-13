@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Coffee House</title>
+    <style>
+        body {
+            font-family: "Rubik", sans-serif;
+            color: #333;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #333;
+            /* background-image: url("home\ img.avif"); */
+            /* background-image: url("cup_of_coffee_-_3595\ \(Original\).mp4"); */
+            background-repeat: no-repeat;
+            background-size: contain;
+            backdrop-filter: blur(4px);
+        }
+
+        /* .img img {
+            width: 96px;
+            height: 96px;
+        } */
+        .img {
+            display: inline;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            height: 100px;
+            top: 0px;
+        }
+
+        button {
+            background-color: white;
+            border-radius: 50px;
+            float: right;
+            cursor: pointer;
+            width: 100px;
+            height: 40px;
+            margin-top: 40px;
+            margin-right: 20px;
+        }
+
+        button:hover {
+            background-color: peachpuff;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .mainimg {
+            height: 100%;
+        }
+
+        .mainimg video {
+            z-index: -10;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            z-index: -10;
+            top: -10%;
+            bottom: 0%;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            letter-spacing: 15px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 50px;
+            letter-spacing: 3px;
+            color: wheat;
+        }
+
+        .offers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 80px;
+        }
+
+        .box {
+            padding: 30px;
+            border: 2px solid chocolate;
+            margin-bottom: 140px;
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            text-align: center;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+            border-radius: 30px;
+        }
+
+        .box:hover {
+            background-color: burlywood;
+            transform: scale(1.03);
+            border-radius: 20px;
+            color: white;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        .discounts {
+            position: relative;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .discounts h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .discounts ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        .discounts li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background-color: #282828;
+            color: aliceblue;
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 14px;
+        }
+
+        .logoimg {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <!-- <div class="img"><img src="logo 1.jpg" alt="" /></div> -->
+        <!-- <video src="cup_of_coffee_-_3595 (Original).mp4" width="980px"></video> -->
+        <!-- <button><a href="./order.html" target="_blank">YOUR CART</a></button> -->
+        <button><a href="./ContactUs.html" target="_blank">CONTACT</a></button>
+        <button><a href="./Menu.html" target="_blank">MENU</a></button>
+        <button><a href="./Homepage.html">HOME</a></button>
+    </div>
+
+    <div class="logoimg">
+        <img src="logo cofee.jpg" width="200px" height="200px" />
+    </div>
+
+    <div class="mainimg">
+        <video autoplay loop muted>
+            <source src="cup_of_coffee_-_3595 (Original).mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <h1>PREMIUM COFFEE HOUSE</h1>
+    <h2>We don't make coffee. We make your day :)</h2>
+
+    <div class="offers">
+        <div class="box">
+            <h3>QUALITY COFFEE BEANS</h3>
+
+            <p>
+                Immerse yourself in the robust embrace of our signature coffee beans,
+                sourced from the sun-drenched plantations of Brazil.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>RESTAURANT ENVIRONMENT</h3>
+
+            <p>
+                Indulge in an extraordinary dining experience that marries exceptional
+                cuisine with impeccable service.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>EXPERT BARISTAS</h3>
+
+            <p>
+                Our team of dedicated baristas is the heart and soul of our café.
+                Trained in the art of coffee preparation, our baristas are experts in
+                the delicate balance of flavors.
+            </p>
+        </div>
+    </div>
+
+    <div class="discounts">
+        <h3>DISCOUNTS</h3>
+
+        <ul>
+            <li>Special offer: Buy one get one free on all coffee drinks.</li>
+            <li>Happy hour: 50% off on all pastries from 4pm to 6pm.</li>
+            <li>
+                Weekend deal: Enjoy 20% off on breakfast combos on Saturdays and
+                Sundays.
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        © All rights reserved<br />
+        Address: 32-C Defence Road, Lahore.
+    </div>
+</body>
+
+</html>
